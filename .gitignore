@@ -1,0 +1,25 @@
+# KiCad autosave / temporary files
+**/~*
+**/.history/
+**/*_backup/
+**/*-backups/
+
+# KiCad backup files
+**/*.bak
+**/*.lck
+
+# Personal/source/reference files you don't want in Git
+**/source_files/
+**/images/
+
+# PDFs / spreadsheets / text documents
+**/*.pdf
+**/*.xlsx
+**/*.xls
+**/*.csv
+**/*.txt
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
