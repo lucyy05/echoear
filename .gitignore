@@ -3,6 +3,7 @@
 **/.history/
 **/*_backup/
 **/*-backups/
+*.kicad_prl
 
 # KiCad backup files
 **/*.bak
