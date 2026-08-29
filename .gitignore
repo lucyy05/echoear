@@ -1,6 +1,7 @@
 # KiCad autosave / temporary files
 **/~*
 **/.history/
+**/.history_trim/
 **/*_backup/
 **/*-backups/
 *.kicad_prl
