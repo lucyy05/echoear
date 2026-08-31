@@ -1,11 +1,13 @@
 (version 1)
 
-(rule "Allow Via In Pad Spacing"
-    (constraint clearance (min 0mm))
-    (constraint hole_clearance (min 0mm))
-    (condition "A.Type == 'via' && B.Type == 'pad' && A.Net == B.Net"))
+# Drill/hole size - listed here to maintain order of rule application. Must not override rule set in Via hole/diameter size below.
+(rule "drill hole size (mechanical)"
+	(constraint hole_size (min 0.15mm) (max 6.3mm)))
 
-(rule "JLCPCB Via In Pad Dimensions"
-    (constraint hole_size (min 0.25mm) (max 0.35mm))
-    (constraint via_diameter (max 0.55mm))
-    (condition "A.NetClass == 'ViaInPad'"))
+
+# 4-layer special
+(rule "Minimum Via Diameter and Hole Size"
+	(constraint hole_size (min 0.15mm))
+	(constraint via_diameter (min 0.3mm))
+	(constraint disallow buried_via)
+	(condition "A.Type == 'via'"))
