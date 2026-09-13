@@ -8296,7 +8296,7 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
+		(property "Description" "100W@8/20us 12V 15pF 1uA 5.5V 5V ESD IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 SOD-523 ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 208.28 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8307,7 +8307,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C383211"
+		(property "LCSC" "C5246195"
 			(at 208.28 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -9410,7 +9410,7 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
+		(property "Description" "100W@8/20us 12V 15pF 1uA 5.5V 5V ESD IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 SOD-523 ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 257.81 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9421,7 +9421,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C383211"
+		(property "LCSC" "C5246195"
 			(at 257.81 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -10152,7 +10152,7 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
+		(property "Description" "100W@8/20us 12V 15pF 1uA 5.5V 5V ESD IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 SOD-523 ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 254 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10163,7 +10163,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C383211"
+		(property "LCSC" "C5246195"
 			(at 254 54.61 90)
 			(hide yes)
 			(show_name no)
