@@ -645,13 +645,25 @@
         "uuid": "919b249b-28e6-49d6-a46c-47b0cfe0d5d1"
       }
     ],
-    "used_designators": "U2",
+    "used_designators": "R1-3,C1-3,#PWR2-3",
     "variants": []
   },
   "sheets": [
     [
       "919b249b-28e6-49d6-a46c-47b0cfe0d5d1",
       "echoear_coreboard"
+    ],
+    [
+      "30ec0073-cadb-4fde-88ef-ae84dbd12f48",
+      "MCU"
+    ],
+    [
+      "25b0c935-1253-4e1a-a7e3-572f314d3e73",
+      "Interface"
+    ],
+    [
+      "0b059838-4821-4019-9678-644c131137bc",
+      "codec"
     ]
   ],
   "text_variables": {},
