@@ -1515,16 +1515,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 92.71) (xy 180.34 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37e5051a-1cfd-452d-93be-7a32e2ab0456")
-	)
-	(wire
-		(pts
 			(xy 180.34 62.23) (xy 193.04 62.23)
 		)
 		(stroke
@@ -1845,6 +1835,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 92.71) (xy 171.45 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a80113be-dee0-4baa-a89b-fda09d1934d8")
+	)
+	(wire
+		(pts
 			(xy 161.29 133.35) (xy 171.45 133.35)
 		)
 		(stroke
@@ -1932,6 +1932,16 @@
 			(type default)
 		)
 		(uuid "cdd75e83-2df3-4d2b-973a-7b09afab0039")
+	)
+	(wire
+		(pts
+			(xy 161.29 90.17) (xy 171.45 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0755717-dcc1-48e7-895f-90f24986b7a2")
 	)
 	(wire
 		(pts
@@ -2035,16 +2045,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 90.17) (xy 180.34 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8b71692-1ced-478a-b4ae-7027bcd203d3")
-	)
-	(wire
-		(pts
 			(xy 161.29 128.27) (xy 171.45 128.27)
 		)
 		(stroke
@@ -2073,16 +2073,6 @@
 		)
 		(uuid "fbea0c06-465a-4647-b93f-08eb353735f8")
 	)
-	(label "U0RXD"
-		(at 162.56 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "011d5455-c4ef-4928-8ee3-bd397f2ab84b")
-	)
 	(label "ICM_INT1"
 		(at 162.56 105.41 0)
 		(effects
@@ -2108,6 +2098,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -2128,6 +2119,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 0 255 1)
 			)
 			(justify left bottom)
 		)
@@ -2138,6 +2130,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -2184,7 +2177,7 @@
 		(uuid "3739288f-a718-4dfd-9690-33b6ca311352")
 	)
 	(label "LCD_BLK"
-		(at 171.45 92.71 0)
+		(at 163.83 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2194,7 +2187,7 @@
 		(uuid "40f8f6a3-6d85-4e9c-8d2d-a7c20a0062d2")
 	)
 	(label "LED_G"
-		(at 171.45 90.17 0)
+		(at 163.83 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2238,6 +2231,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 0 255 1)
 			)
 			(justify left bottom)
 		)
@@ -2492,16 +2486,6 @@
 			(justify left bottom)
 		)
 		(uuid "dddcf567-bd08-4603-bcfc-0e5b475e08ad")
-	)
-	(label "U0TXD"
-		(at 162.56 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e2b13ee5-af72-4aca-aac1-c57a01bb2bf7")
 	)
 	(label "POWER_CTRL"
 		(at 118.11 118.11 0)
@@ -3246,6 +3230,17 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
+			(at 146.05 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2913202"
 			(at 146.05 113.03 0)
 			(hide yes)
 			(show_name no)
