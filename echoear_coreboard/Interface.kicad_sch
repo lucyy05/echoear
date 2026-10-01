@@ -6375,6 +6375,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15127"
+			(at 191.77 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "909a6764-59e6-4d6c-9f81-65b6fe1761b6")
 		)
@@ -7946,6 +7957,17 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 135.89 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20917"
 			(at 135.89 172.72 0)
 			(hide yes)
 			(show_name no)
