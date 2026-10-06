@@ -645,7 +645,7 @@
         "uuid": "919b249b-28e6-49d6-a46c-47b0cfe0d5d1"
       }
     ],
-    "used_designators": "C31,C35,C40-41,#PWR33-34,U5",
+    "used_designators": "#PWR36-37,#PWR40,#PWR43-46,#PWR53,#PWR57-58,C50-64,R21,R24,FPC2,U8",
     "variants": []
   },
   "sheets": [
@@ -664,6 +664,10 @@
     [
       "0b059838-4821-4019-9678-644c131137bc",
       "codec"
+    ],
+    [
+      "9dd69615-7d16-4afe-bf1c-b656e7d4dcd7",
+      "codec1"
     ]
   ],
   "text_variables": {},
